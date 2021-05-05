@@ -1,0 +1,8 @@
+.brand {
+    color: $color-black-dark;
+    border: 1px solid $color-black-dark;
+    display: inline-block;
+    padding: 0.22rem 2.4rem;
+
+    @include center;
+}

@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    height: 70vh;
+
+    $brand-half-width: 117.062 / 2 * 1px;
+
+    .left {
+        width: calc(50% - #{$brand-half-width});
+        position: relative;
+    }
+
+    .right {
+        width: calc(50% + #{$brand-half-width});
+    }
+}
